@@ -1,0 +1,20 @@
+{
+    "name": "info/tp-vote",
+    "description": "TP de sécurité informatique: vote en ligne en utilisant la blockchain.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ndagui jean",
+            "email": "ndaguijeanlouismelanie@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "symfony/http-foundation": "^5.4"
+    }
+}
